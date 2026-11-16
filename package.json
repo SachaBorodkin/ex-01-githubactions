@@ -1,0 +1,14 @@
+{
+  "name": "ex-02-githubactions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini projet Node.js pour l'exercice GitHub Actions (lint, artefact, versioning)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
